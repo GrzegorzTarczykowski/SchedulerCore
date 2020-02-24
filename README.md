@@ -3,7 +3,7 @@
 NuGet:
 Install-Package Microsoft.Windows.Compatibility
 
-Deploying
+Deploying: 
 dotnet publish -r win-x64 -c Release
 sc create TestService BinPath=C:\full\path\to\publish\dir\WindowsServiceExample.exe
 
